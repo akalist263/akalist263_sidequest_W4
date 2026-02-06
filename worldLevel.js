@@ -32,7 +32,12 @@ class WorldLevel {
 
     // Theme defaults + override with JSON.
     this.theme = Object.assign(
-      { bg: "#F0F0F0", platform: "#C8C8C8", blob: "#1478FF" },
+      {
+        bg: "#FFECD1",
+        platform: "#AD91A3",
+        blob: "#15616D",
+        golstar: "#00000",
+      },
       levelJson.theme || {},
     );
 
