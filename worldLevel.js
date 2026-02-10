@@ -36,7 +36,6 @@ class WorldLevel {
         bg: "#FFECD1",
         platform: "#AD91A3",
         blob: "#15616D",
-        golstar: "#00000",
       },
       levelJson.theme || {},
     );
